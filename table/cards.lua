@@ -1,0 +1,35 @@
+return {
+    width = 100,
+    height = 150,
+    margin = 40,
+    {
+        name = "Slap",
+        now = false,
+        last = false,
+        damage = 1,
+        text = "Deal 1 damage to an enemy. 1 second cooldown.",
+        value = 10,
+        cost = 15,
+        speed = 60,
+        cooldown = 0},
+    {
+        name = "Punch",
+        now = false,
+        last = false,
+        damage = 3,
+        text = "Deal 2 damage to an enemy. 2 second cooldown.",
+        value = 10,
+        cost = 30,
+        speed = 120,
+        cooldown = 0},
+    {
+        name = "Suplex",
+        now = false,
+        last = false,
+        damage = 5,
+        text = "Deal 5 damage to an enemy. 2.5 second cooldown.",
+        value = 10,
+        cost = 60,
+        speed = 150,
+        cooldown = 0}
+}
